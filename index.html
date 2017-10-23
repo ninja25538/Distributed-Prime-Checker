@@ -8,6 +8,7 @@
 </head>
 <body>
 <script type="text/javascript">
+  var numToCalc = prompt("Prime To Calc");
 function handle_results(r) {
   if (r) {
     document.write(" is prime</p>");
@@ -34,7 +35,7 @@ function test_p (p) {
   millerRabin(num,witness,handle_results);
 }
 
-test_p(3);//132049);
+test_p(numToCalc);
 
 </script>
 </body>
